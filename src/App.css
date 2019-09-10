@@ -1,0 +1,236 @@
+@media (max-width: 375px) 
+{
+  .button-header{
+    width: 150px !important;
+  }
+  #pesquisa{
+    width: 375px !important;
+    margin-top: 50px !important;
+    height: 430px !important;
+  }
+  .header-pesquisa{
+    margin-bottom: -50px;
+    padding-top: 70px !important;
+    width: 100% !important
+
+  }
+  .sell-car{
+    position: absolute;
+    top:-100px;
+    margin-left: 21%;
+  }
+  header{
+    width: 100% !important;
+  }
+  header img{
+    margin-top: -30px;
+    margin-left: 115px;
+  }
+  .local{
+    width: 100% !important;
+    margin-top: 5px;
+  }
+  .raio{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100% !important;
+    margin-left: 0px !important;
+  }
+  .marca, .ano, .faixa{
+    margin-bottom: 5px !important;
+  }
+  .label-raio{
+    margin-left: 6px !important;
+  }
+  .second-line{
+    margin-top: 5px !important;
+  }
+  .footer-pesquisa button{
+    margin-left: 10%;
+    margin-bottom: 10%;
+  }
+  .busca-avancada{
+    width: 50%;
+    margin-bottom: 10px;
+  }
+  .limpar-filtro{
+    width: 50%;
+    margin-bottom: 10px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+html, body, #root {
+  height: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+body {
+  font: 14px 'Roboto', sans-serif;
+  background: #ecf1f8;
+  -webkit-font-smoothing: antialiased !important;
+}
+#box{
+  margin: auto;
+  align-items: center;
+
+
+}
+header{
+  margin:auto;
+  width: 932px;
+  margin-top: 40px;
+  background: #ecf1f8;
+}
+.header img{
+  width: 26%;
+}
+.header-pesquisa{
+  background: #ecf1f8;
+  padding: 10px;
+  padding-top: 40px;
+}
+.button-header span{
+  font-size: 10px;
+}
+.button-header{
+  font-size: 20px;
+  color: #94949E;
+  cursor: pointer;
+}
+.selected{
+  color: #f3123c;
+
+}
+.selected span{
+  color: #94949E;
+}
+.sell-car{
+  background: transparent;
+  border: none;
+  width: 215px;
+  border: 2px solid #FF6D00;
+  color: #FF6D00;
+  height: 40px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: .5s;
+ 
+}
+.sell-car:hover{
+
+  border: none;
+  width: 215px;
+  border: 2px solid #FF6D00;
+  background-color: #FF6D00;
+  color: #fff;
+  height: 40px;
+  font-weight: 600;
+ 
+}
+#pesquisa{
+  margin:auto;
+  width: 932px;
+  height: 312px;
+  background: #fff;
+  padding: 3%;
+}
+.footer-pesquisa{
+  align-items: center;
+  margin-top: 50px;
+}
+.footer-pesquisa span{
+  color: #f3123c;
+  font-weight: 600;
+}
+.footer-pesquisa a{
+  color: #94949E;
+}
+.footer-pesquisa button{
+  height: 50px;
+  width: 270px;
+  background: #f3123c;
+  transition: .5s;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+.local{
+  padding-left: 80px;
+  width: 107%;
+}
+.footer-pesquisa button:hover{
+ 
+  background: #c80a2e;
+  
+}
+.label-input{
+  position: absolute;
+  margin-top: 12px;
+  margin-left: 10px;
+  align-items: center;
+  color: #94949E;
+  font-weight: 400;
+}
+.label-input img{
+  margin-top: -5px;
+}
+.raio{
+  border-radius: 0px 5px 5px 0px;
+  width: 110%;
+  margin-left: -14px;
+  padding-left: 40px;
+}
+option{
+  color: #94949E;
+}
+.label-raio{
+  position: absolute;
+  margin-top: 12px;
+  margin-left: -7px;
+  align-items: center;
+  color: #94949E;
+  font-weight: 400;
+}
+.marca{
+  padding-left: 55px;
+}
+.label-marca{
+  position: absolute;
+  margin-top: 12px;
+  margin-left: 7px;
+  align-items: center;
+  color: #94949E;
+  font-weight: 400;
+}
+.modelo{
+  padding-left: 60px;
+}
+.label-modelo{
+  position: absolute;
+  margin-top: 12px;
+  margin-left: 7px;
+  align-items: center;
+  color: #94949E;
+  font-weight: 400;
+}
+.versao{
+  padding-left: 60px;
+}
+.label-versao{
+  position: absolute;
+  margin-top: 12px;
+  margin-left: 7px;
+  align-items: center;
+  color: #94949E;
+  font-weight: 400;
+}
+.selected{
+  border-bottom: 3px solid #f3123c;
+  padding-bottom: 5px;
+  margin-bottom: -10px;
+}
